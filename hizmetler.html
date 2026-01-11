@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hizmetler</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            margin-top: -60px;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            overflow: hidden;
+            animation: fadeIn 0.6s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .top {
+            width: 100%;
+            height: 160px;
+            background-image: url('images/hizmetler1.png');
+            background-size: 100% auto;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding: 20px 0 20px 0;
+        }
+
+        .hizmetler {
+            color: white;
+            font-size: 40px;
+            margin-top: 60px;
+        }
+
+        .yan {
+            display: flex;
+            flex-direction: row;
+            background-color: #0f1260;
+            width: 320px;
+            height: 50px;
+            text-align: center;
+            align-items: center;
+            position: relative;
+            top: 120px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            border: 4px solid #0f1260;
+            border-radius: 50%;
+            margin-left: 50px;
+            margin-right: 10px;
+        }
+
+        .yazi {
+            color: white;
+            font-size: 25px;
+            text-decoration: none;
+        }
+
+        h1 {
+            color: rgb(213, 124, 138);
+            text-align: center;
+            margin: 30px 0 30px 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 450px;
+            margin: -20px 30px 0 30px;
+        }
+
+        .sol {
+            width: 40%;
+            background-color: rgba(106, 169, 187, 0.7);
+            margin-right: 30px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .aciklama1 {
+            margin: 0 20px 10px 20px;
+            line-height: 1.4;
+        }
+
+        .buton1 {
+            background-color: #0f1260;
+            border-radius: 10px;
+            padding: 10px 40px 10px 40px;
+            font-size: 17px;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .birinci {
+            margin-top: 20px;
+            height: 210px;
+            width: 75%;
+        }
+
+
+        .sag {
+            width: 60%;
+            background-color: rgba(190, 218, 227, 0.7);
+        }
+
+        .iç {
+            background-color: rgba(106, 169, 187, 0.7);
+            margin: 20px 30px 0px 30px;
+            padding: 5px 15px 10px 15px;
+        }
+
+        .resimler {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 20px 0 0 30px;
+        }
+
+        .buton2 {
+            background-color: #0f1260;
+            border-radius: 10px;
+            padding: 10px 30px 10px 30px;
+            font-size: 17px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            margin-right: 420px;
+        }
+
+        .buton3 {
+            background-color: #0f1260;
+            border-radius: 10px;
+            padding: 10px 30px 10px 30px;
+            font-size: 17px;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3f4175;
+        }
+
+        h2 {
+            color: #0f1260;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="yan">
+        <img src="images/logo2.png" class="logo">
+        <a href="anasayfa.html" class="yazi" title="Anasayfaya Dön">Miras Turizm</a>
+    </div>
+
+    <div class="top">
+        <p class="hizmetler">Hizmetler</p>
+    </div>
+
+    <h1>Gezilecek Tüm Yerler</h1>
+
+    <div class="container">
+        <div class="sol">
+            <h2>Beyaz Miras Balon Turu Paketi</h2>
+            <p class="aciklama1">Güneş doğarken Pamukkale'nin eşsiz beyazlığı ve Hierapolis'in antik kalıntıları
+                üzerinde süzülün. 1000 metre yüksekten,
+                hayatınızın en büyüleyici manzarasına tanıklık edin. (60 Dakikalık Uçuş Süresi)</p>
+            <button class="buton1">Balon Turu Satın Al</button>
+            <img src="images/hizmetler2.png" class="birinci">
+        </div>
+
+        <div class="sag">
+            <div class="resimler">
+                <img src="images/hizmetler3.png" style="margin-right: 30px;">
+                <img src="images/hizmetler4.png" style="margin-right: 30px;">
+                <img src="images/hizmetler5.png" style="margin-right: 30px;">
+            </div>
+            <div class="iç">
+                <div class="aciklama2">
+                    <h2>Beyaz Miras VIP Paket (Her Şey Dahil)</h2>
+                    <p>Sabah balon turuyla güne başlayıp,
+                        rehberli antik kent gezisi ve Kleopatra havuzu keyfiyle devam eden,
+                        gün batımında travertenlerde son bulan eksiksiz bir Pamukkale masalı. <br><br>Tüm Aktiviteler
+                        Tek Pakette <br>Öğle Yemeği Dahil <br>Özel VIP Araç ile Ulaşım </p>
+                    <div class="butonlar">
+                        <button class="buton2">VIP Paketi Satın Al</button>
+                        <button class="buton3">Bize Ulaşın</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
